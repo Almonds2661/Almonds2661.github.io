@@ -17,19 +17,30 @@
 <body>
 <div class="container">
     <h1 class="text-center">Welcome to Brody Crawford's Portfolio</h1>
-    <h2 class="text-center">About Me</h2>
+    <h2 class="text-left">About Me</h2>
     <p>Greetings, my name is Brody, and I am a second-year student at Computer Systems Technology at Saskatchewan
         Polytechnic. I have experience in the IT field and aspire to make programs that help people in the business
         world. I have experience in several languages, web frameworks, operating and network systems,
         hardware and system management.</p>
+
     <h2 class="text-center">Projects</h2>
-    <h3 class="text-center">AI Data Import</h3>
-    <p>This was a group project with a small group of students working under real world clients in Saskatoon under our
+    <h3 class="text-left">AI Data Import</h3>
+    <p>The project took in PDFs, Excel sheets, or CSV data and with AI it mapped it to our clients database schema.
         instructor's supervision. The clients system used PHP as a framework, and it is what we used to serve the
         website. On the backend, it operated on a LAMP stack (Linux, Apache, MySQL, PHP).</p>
-    <p>The project took in PDFs, Excel sheets, or CSV data and with AI it mapped it to our clients database schema.
+    <p>This was a group project with a small group of students working under real world clients in Saskatoon under our
         The database utilized Doctrine, and Object Relational Model to map the data to our schema. The program would
         then display this data to the user before they imported it to the backend database.</p>
+
+    <h3 class="text-left">Java FX Server / Client Program</h3>
+    <p>This was a Java program that would run a multithreaded server that would wait for incoming connections using
+        Server Sockets. It would use Java-FX as a GUI framework for the clients while reported feedback to the server
+        via its console. It used abstracted "packets" for network transfers and future packets types can be added later
+        in a modular fashion.</p>
+    <p>The server would use threads to listen for packets then send those packets to the clients that would also have a
+        threads listening for them. Clients would receive the packets and display messages. Clients could also leave and
+        join without causing disruptions. They also used a JSON file for their name and display colors.</p>
+
 </div>
 </body>
 </html>
